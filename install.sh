@@ -29,7 +29,7 @@ function pull_musicbot_git() {
     case $BRANCH in
     [Yy]*)
         echo "Installing branch Review"
-        git clone https://github.com/RihardKeegi/musicbot.git MusicBot -b review
+        git clone https://github.com/RihardKeegi/musicbot.git MusicBot -b master
         ;;
     [Nn]*)
         echo "Installing branch Master"
